@@ -17,19 +17,18 @@
    height: 200px;
    background: #aaa;
  }
-
  body, html {
-   height: 100%;
-   font-family: "Inconsolata", sans-serif;
- }
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
 
- .bgimg {
-   background-position: center;
-   background-size: cover;
-   background-image: url("/w3images/coffeehouse.jpg");
-   min-height: 75%;
- }
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://www.w3schools.com/w3images/coffeeshop.jpg");
+  min-height: 75%;
+}
 
- .menu {
-   display: none;
- }
+.menu {
+  display: none;
+}
