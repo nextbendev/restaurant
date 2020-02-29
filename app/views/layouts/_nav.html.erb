@@ -1,16 +1,14 @@
-  <div class="w3-top">
-    <div class="w3-row w3-padding w3-black">
-      <div class="w3-col s3">
-        <p><%= link_to "Home",    root_path %></p>
-      </div>
-      <div class="w3-col s3">
-        <p><%= link_to "About",    about_path %></p>
-      </div>
-      <div class="w3-col s3">
-        <p><%= link_to "Menu",    shop_path %></p>
-      </div>
-      <div class="w3-col s3">
-        <p><%= link_to "Contact",    contact_path %></p>
-      </div>
-    </div>
-  </div>
+  <ul class="navbar navbar-dark bg-dark"  style="list-style-type:none">
+    <li class="nav-item">
+      <p><%= link_to "Home", root_path, :class => "nav-link active" %></p>
+    </li>
+    <li class="nav-item">
+      <p><%= link_to "About", about_path, :class => "nav-link" %></p>
+    </li>
+    <li class="nav-item">
+      <p><%= link_to "Menu", shop_path, :class => "nav-link" %></p>
+    </li>
+    <li class="nav-item">
+      <p><%= link_to "Contact", contact_path, :class => "nav-link" %></p>
+    </li>
+  </ul>
